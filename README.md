@@ -1,4 +1,4 @@
-# Online-Shop
+# Creating a Physical Database for an Online-Offline Store Chain
 Creating a Physical Database for an Online-Offline Store Chain
 
 
