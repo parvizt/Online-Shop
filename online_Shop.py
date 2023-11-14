@@ -21,7 +21,7 @@ class OnlineShopDatabaseCreator:
             conn = pyodbc.connect('Driver={SQL Server};Server=DESKTOP-2EA2N5I;Database=Online Shop;Trusted_Connection=yes;')
             cursor = conn.cursor()
 
-            # ایجاد جداول
+            # Make tables
 
             cursor.execute('''
                 CREATE TABLE Products (
@@ -66,7 +66,7 @@ class OnlineShopDatabaseCreator:
                 )
             ''')
 
-            # ادامه ایجاد جداول برای Orders، OrderDetails، Payment، Reviews، Categories و Brands
+            # Continue make tables for Orders، OrderDetails، Payment، Reviews، Categories و Brands
 
             conn.commit()
             conn.close()
