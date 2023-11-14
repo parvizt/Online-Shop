@@ -1,0 +1,3 @@
+Welcome,
+Please create a database named "Online Shop" before starting this Python file. After creating it, run this Python file.
+Thanks
